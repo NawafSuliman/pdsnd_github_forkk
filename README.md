@@ -7,7 +7,7 @@ Include the date you created this project and README file.
 The 3rd Project fome five project in my course
 
 ### Description
-Describe what your project is about and what it does
+the project i'm created is apout git and hithub .
 
 ### Files used
 Include the files used

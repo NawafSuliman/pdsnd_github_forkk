@@ -2,6 +2,7 @@ import time
 import pandas as pd
 import numpy as np
 
+
 CITY_DATA = {'chicago': 'chicago.csv',
              'new york city': 'new_york_city.csv',
              'washington': 'washington.csv'}
@@ -40,7 +41,7 @@ def Ask_about_city_month_day ():
     day = ''
     while True:
         day = input(
-            'Enter day you want to analyze choose one of them "( monday, tuesday, ... sunday )"  or write "all" ? :').lower()
+            'Enter any day you want to analyze choose one of them "( monday, tuesday, ... sunday )"  or write "all" ? :').lower()
         if day.lower() in days:
             break
     print('-'*40)

@@ -1,6 +1,8 @@
+#this is library
 import time
 import pandas as pd
 import numpy as np
+import Matplotlib as mat
 
 CITY_DATA = {'chicago': 'chicago.csv',
              'new york city': 'new_york_city.csv',
@@ -12,7 +14,7 @@ days = ['all', 'monday', 'tuesday',
         'wednesday', 'friday', 'saturday', 'sunday']
 
 
-def get_filters():
+def Ask_about_city_month_day ():
     """
     Asks user to specify a city, month, and day to analyze.
 
@@ -29,7 +31,7 @@ def get_filters():
             'Enter city you want to analyze choose one of them (chicago, new york city, washington) ? :').lower()
         if city.lower() in cites:
           break
-    # TO DO: get user input for month (all, january, february, ... , june)
+
     month = ''
     while True:
         month = input(
@@ -40,7 +42,7 @@ def get_filters():
     day = ''
     while True:
         day = input(
-            'Enter day you want to analyze choose one of them "( monday, tuesday, ... sunday )"  or write "all" ? :').lower()
+            'Enter any day you want to analyze choose one of them "( monday, tuesday, ... sunday )"  or write "all" ? :').lower()
         if day.lower() in days:
             break
     print('-'*40)

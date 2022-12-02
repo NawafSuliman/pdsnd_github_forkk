@@ -12,7 +12,7 @@ days = ['all', 'monday', 'tuesday',
         'wednesday', 'friday', 'saturday', 'sunday']
 
 
-def get_filters():
+def Ask_about_city_month_day ():
     """
     Asks user to specify a city, month, and day to analyze.
 

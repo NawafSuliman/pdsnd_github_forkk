@@ -30,7 +30,7 @@ def Ask_about_city_month_day ():
             'Enter city you want to analyze choose one of them (chicago, new york city, washington) ? :').lower()
         if city.lower() in cites:
           break
-    # TO DO: get user input for month (all, january, february, ... , june)
+
     month = ''
     while True:
         month = input(
